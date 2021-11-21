@@ -347,10 +347,11 @@ img{
 
 }
 .comand-social-item{
-    padding: 12px;
+    /* padding: 12px; */
 }
 .comand-social-link{
-
+    display: flex;
+    padding: 12px;
 
 }
 .comand-social-icon{
