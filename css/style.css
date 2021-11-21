@@ -6,12 +6,14 @@
     --hero-title-color: #ffffff;
     --footer-tel-mail-text-color: rgba(255, 255, 255, 0,6);
     --hero-btn-color: #188CE8;
+    --background-about-icon: #F5F4FA;
 
     --second-background-color:#F5F4FA;
     --main-background-color: #2F303A;
     --border-color: #ECECEC;
     --border-color-filter: #EEEEEE;
     --box-shadow-comand:0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2)
+
 }
 
 p, h1, h2, h3, h4, h5, h6{
@@ -223,9 +225,20 @@ img{
 }
 .about-item{
     width: 270px;
+    
 }
 .about-item:not(:nth-child(4n)){
     margin-right: 30px;
+}
+.about-icon{
+    display: flex;
+    /* padding-top: 25px;
+    padding-bottom: 25px; */
+    margin-bottom: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 4px;
+    background-color: var(--background-about-icon);
 }
 .about-item-title {
     margin-bottom: 10px;
