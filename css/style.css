@@ -457,7 +457,50 @@ img{
     color: var(--accent-color);
 }
 
+/* --------------------------- */
+.general-box{
+    display: flex;
+ 
+}
+.join{
+    margin-left: 70px;
+}
+.join-list{
+    display: flex;
+}
+.join-item-text{
+    margin-bottom: 20px;
 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--hero-title-color);
+}
+.join-link{
+    display: flex;
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    border-radius: 50% 50%;
+
+    background: rgba(255, 255, 255, 0.1);
+   
+    color: var(--hero-title-color);
+}
+.join-link:hover,
+.join-link:focus{
+    background: var(--accent-color);
+}
+.join-icon{
+    fill: currentColor;
+}
+.join-item:not(:last-child){
+    margin-right: 10px;
+}
 
 /* -------------------PORTFOLIO.HTML--------------------------- */
 
