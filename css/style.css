@@ -31,7 +31,7 @@ ul{
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    background-color: pink;
+    /* background-color: pink; */
 }
 body {
     font-family: "Roboto",sans-serif;
@@ -380,17 +380,34 @@ img{
 
 .clients-list{
     display: flex;
-    background-color: salmon;
-    
+        
 }
-.clients-item{
-    border: 1px solid red;
-    padding: 16px 32px;
+.clients-item:not(:last-child){
+    margin-right: 30px;
+}
+.clients-link{
+   display: flex;
+   width: 170px;
+   height: 92px;
+   padding: 16px 32px;
+
+   border: 1px solid var(--social-icon);
+   box-sizing: border-box;
+   border-radius: 4px;
+
+   color: var(--social-icon);
+}
+.clients-icon{
+   fill: currentColor;
+}
+
+.clients-link:hover,
+.clients-link:focus{
+    color: var(--accent-color);
+    border-color: var(--accent-color);
 
 }
-.clients-item + .clients-item {
-    margin-left: 30px;
-}
+
 
 
 /* -------------------footer--------------------------- */
