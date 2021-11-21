@@ -8,11 +8,14 @@
     --hero-btn-color: #188CE8;
     --background-about-icon: #F5F4FA;
 
+    --social-icon: #AFB1B8;
+
     --second-background-color:#F5F4FA;
     --main-background-color: #2F303A;
     --border-color: #ECECEC;
     --border-color-filter: #EEEEEE;
     --box-shadow-comand:0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2)
+   
 
 }
 
@@ -321,13 +324,47 @@ img{
     color: var(--main-title-color);
 }
 .comand-item-work {
+    margin-bottom: 16px;
+   
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
     
-    color: #757575;
+    color: var(--primary-color);
 }
+
+
+
+
+
+
+.comand-social-list{
+    display: flex;
+    justify-content: center;
+
+
+
+}
+.comand-social-item{
+    padding: 12px;
+}
+.comand-social-link{
+
+
+}
+.comand-social-icon{
+
+    display: flex;
+    width: 20px;
+    height: 20px;
+    fill: var(--social-icon);
+}
+.comand-social-item:not(:last-child){
+    margin-right: 10px;
+}
+
+
 /* -------------------clients--------------------------- */
 .clients-title{
     margin-bottom: 50px;
