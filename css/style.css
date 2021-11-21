@@ -230,15 +230,17 @@ img{
 .about-item:not(:nth-child(4n)){
     margin-right: 30px;
 }
+.about-item-icon{
+    padding: 25px 100px;
+    background-color: var(--background-about-icon);
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
 .about-icon{
     display: flex;
-    /* padding-top: 25px;
-    padding-bottom: 25px; */
-    margin-bottom: 30px;
+
     width: 70px;
     height: 70px;
-    border-radius: 4px;
-    background-color: var(--background-about-icon);
 }
 .about-item-title {
     margin-bottom: 10px;
