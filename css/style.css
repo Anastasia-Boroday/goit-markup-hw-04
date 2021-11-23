@@ -475,7 +475,7 @@ img{
 /* --------------------------- */
 .general-box{
     display: flex;
-  
+    align-items: baseline;
 
  
 }
